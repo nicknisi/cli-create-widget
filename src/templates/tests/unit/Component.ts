@@ -1,6 +1,6 @@
 const { describe, it, beforeEach, afterEach } = intern.getInterface('bdd');
 
-import { w } from '@dojo/widget-core/d';
+import { w } from '@dojo/framework/widget-core/d';
 import harness from '@dojo/test-extras/harness';
 
 import <%= name %> from './<%= testComponentPath %>';
